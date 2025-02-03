@@ -16,7 +16,7 @@ cout << " The average of the array is: "<< averageOfarray(vals, size) << endl;
 
 //return average of array
 double averageOfarray(int vals[], int size) {
-int sum = 0;
+    double sum = 0;
     double average = 0;
     for(int i=0; i < size; i++) {
         sum = sum + vals[i];
@@ -24,3 +24,4 @@ int sum = 0;
     }
     return average;
 }
+
